@@ -1,0 +1,9 @@
+###~_~DOCUMENT SELECTION METHOD~_~###
+1. getElementById() -> Hanya 1 = Mengembalikan element
+2. getElementsByTagName() -> bisa banyak = mengembalikan HTML Collection
+3. getElementsByClassName() -> bisa banyak = mengembalikan HTML COlenction
+4. querySelector() -> menhgembalikan element
+5. querySelectorAll() -> mengembalikan node list
+
+###~_~DOCUMENT SELECTION METHOD~_~###
+###~_~DOCUMENT SELECTION METHOD~_~###
