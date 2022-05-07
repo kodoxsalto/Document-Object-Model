@@ -5,5 +5,38 @@
 4. querySelector() -> menhgembalikan element
 5. querySelectorAll() -> mengembalikan node list
 
-###~_~DOCUMENT SELECTION METHOD~_~###
-###~_~DOCUMENT SELECTION METHOD~_~###
+###~_~DOCUMENT MANIPULATION~_~###
+A. Manipulasi Element : Menangkap judul, element, buat diganti judul warna dll
+    1. elemnt.innerHTML = untuk mengubah isi teks yg udah diisi
+    2. element.style.<propertyCSS> = Mengubah CSS 
+    3. element.setAttribut = memanipulasi atribut elemen yg melekat pada elemen
+    4. element.classList = memanipulasi class
+
+B. Manipulasi Node : KEtika ingin menyisipkan elemen baru pada halaman. misal awal punya 3 paragraf tp pen ditambahain jadi 4 paragraf
+    1. document.createElement()
+    2. document.createTextNode()
+    3. node.appendChild()
+    4. node.insertBefore()
+    5. parentNode.removeChild()
+    6. parentNode.replaceChild()
+    ...
+    https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+
+
+###~_~DOM EVENTS~_~###
+Events != even
+Events  ? adalah representasi kejadian yang terjadi di dalam DOM yang dilakukan oleh user, menggerakan mouse keyboard dll. BIsa juga dilakukan secara otomatis secara API misal animasi selesai dijalankan, halaman selesai di load otomatis
+Cara 'Mendengarkan" Events
+o Event Handler
+    o Inline HTML Attribute
+    o Element METHOD
+o addeventlistener()
+*Daftar Event yang dapat digunakan
+o Mouse Event -> mouse di click, di click 2 kali, di geser pointer dll
+o keyboar event -> ditekan dilepas dll
+o Resource Event -> halaman di load
+o Focus Event -> ketika inputan di click dalam form dll
+o view Event
+o Form Event
+o Css animation & transition Event
+o Drag & drop Event
